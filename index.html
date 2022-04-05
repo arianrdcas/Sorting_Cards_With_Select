@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Card Random</title>
+
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="./4geeks.ico" />
+    </head>
+
+    <body>
+        <div id="contenedor">
+            <label>Cantidad de Cartas:</label>
+            <input type="text" id="nro_cartas" value="" />
+            <button id="btn" onclick="mostrarCarta()">Mostrar Carta</button>
+
+            <button id="btn2" onclick="mostrarCartaOrdenadas()">Ordenar Carta</button>
+            <div id="cards"></div>
+            <div id="cards2"></div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
