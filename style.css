@@ -61,10 +61,16 @@ body {
     padding: 5px;
 } 
 
-#cards2{
+#cardsO{
     display: flex;
     justify-content: flex-start;
     flex-flow: wrap;
     align-items: start;
     padding: 5px;
 } 
+
+span,h3{
+    font-size: 30px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
